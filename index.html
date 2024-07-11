@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bus ticket Booking</title>
+</head>
+<body>
+    
+    <!--HEADER DESIGN--->
+    <header>
+        <nav class="navbar">
+            <img src="https://www.shutterstock.com/image-vector/bus-head-logo-600nw-673063534.jpg" alt="">
+            <a href="#" class="nav-branding">Travel Bus</a>
+            <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#bus123" class="nav-link">Buses</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#portfolio" class="nav-link"> Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+                </ul>
+                </nav>
+                </header>
+        
+                <section class="home" id="home">
+                    <div class="home-content">
+                        <h1>A bus ride is like being in another world.</h1>
+                        <div class="home-content-button">
+                        <button type="submit">Read more</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="Buses" id="bus123">
+                   
+                      <div class="ac-bus">
+                        <h2>BUSES</h2>
+                      </div>
+                      <div class="bus-container">
+                      <div class="ac-bus1">
+                        <div class="ac-bus2">
+                          <img src="https://live.staticflickr.com/8332/8144287214_e0d372343c_z.jpg" alt="">
+                        </div>
+                        <div class="container">
+                          <!-- Bus selection form -->
+                          <form id="busSelectionForm1">
+                            <fieldset>
+                              <h2>Select Bus Type:</h2>
+                              <label>
+                                <input type="radio" name="busType1" value="bus1"> Seater - $310 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType1" value="bus2"> Sleeper - $450 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType1" value="bus3"> Semi-Sleeper - $400 per ticket
+                              </label>
+                              <br><br>
+                            </fieldset>
+                            <div class="btn1">
+                              <button type="button" onclick="showSeatMap()">Select Seats</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                
+                      <div class="ac-bus1">
+                        <div class="ac-bus2">
+                          <img src="https://image.telanganatoday.com/wp-content/uploads/2023/08/TSRTC-2_V_jpg--442x260-4g.webp?sw=412&dsz=442x260&iw=372&p=false&r=2.625" alt="">
+                        </div>
+                        <div class="container">
+                          <!-- Bus selection form -->
+                          <form id="busSelectionForm2">
+                            <fieldset>
+                              <h2>Select Bus Type:</h2>
+                              <label>
+                                <input type="radio" name="busType2" value="bus4"> Luxury - $550 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType2" value="bus5"> Executive - $500 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType2" value="bus6"> Double Decker - $600 per ticket
+                              </label>
+                              <br><br>
+                            </fieldset>
+                            <div class="btn1">
+                              <button type="button" onclick="showSeatMap()">Select Seats</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+
+                      <div class="ac-bus1">
+                        <div class="ac-bus2">
+                          <img src="https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic/18491_574_2.png" alt="">
+                        </div>
+                        <div class="container">
+                          <!-- Bus selection form -->
+                          <form id="busSelectionForm3">
+                            <fieldset>
+                              <h2>Select Bus Type:</h2>
+                              <label>
+                                <input type="radio" name="busType3" value="bus7"> Seater - $220 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType3" value="bus8"> Executive - $150 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType3" value="bus9"> Sleeper - $380 per ticket
+                              </label>
+                              <br><br>
+                            </fieldset>
+                            <div class="btn1">
+                              <button type="button" onclick="showSeatMap()">Select Seats</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+
+                      <div class="ac-bus1">
+                        <div class="ac-bus2">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgYUC4eCNAdriHP_utA5AcUssbCFLf_P9GANP3sZ0VdWNP_SCEL6h_H_r0UgJDadcG9gg&usqp=CAU" alt="">
+                        </div>
+                        <div class="container">
+                          <!-- Bus selection form -->
+                          <form id="busSelectionForm4">
+                            <fieldset>
+                              <h2>Select Bus Type:</h2>
+                              <label>
+                                <input type="radio" name="busType4" value="bus10"> Palle Velugu - $50 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType4" value="bus11"> Express - $60 per ticket
+                              </label>
+                              <br><br>
+                              <label>
+                                <input type="radio" name="busType4" value="bus12"> Deluxe - $70 per ticket
+                              </label>
+                              <br><br>
+                            </fieldset>
+                            <div class="btn1">
+                              <button type="button" onclick="showSeatMap()">Select Seats</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                
+                  <!-- Seat map -->
+                  <div id="seatMap" class="seat-map" style="display: none;">
+                    <h2>Seat Selection</h2>
+                    <div id="seatSelection" class="seat-selection">
+                      <!-- Seats will be dynamically generated here -->
+                    </div class=btn2>
+                    <button type="button" onclick="proceedToBookingForm()">Proceed to Booking</button>
+                  </div>
+                
+                
+                  <!-- Booking form -->
+                   <section class="booking-form1">
+                  <div id="bookingForm" class="booking-form" style="display: none;">
+                    <h2>Booking Details</h2>
+                    <form class="booking">
+                      <label for="name">Name:</label><br/><br/>
+                      <input type="text" id="name" name="name" required>
+                      <br><br>
+                      <label for="email">Email:</label><br/><br/>
+                      <input type="email" id="email" name="email" required>
+                      <br><br>
+                      <label for="date">Date of Travel:</label><br/><br/>
+                      <input type="date" id="date" name="date" required>
+                      <br><br>
+                      <label for="numTickets">Number of Tickets:</label><br>
+                      <input type="number" id="numTickets" name="numTickets" min="1" value="1" readonly required>
+                      <br><br>
+                      <button type="button" onclick="bookTickets()">Book Tickets</button>
+                    </form>
+                  </div>
+                  </section>
+                
+                  <!-- Booking summary -->
+                  <div id="bookingSummary" class="booking-summary" style="display: none;">
+                    <h2>Booking Summary</h2>
+                    <p><strong>Name:</strong> <span id="summaryName"></span></p>
+                    <p><strong>Email:</strong> <span id="summaryEmail"></span></p>
+                    <p><strong>Date of Travel:</strong> <span id="summaryDate"></span></p>
+                    <p><strong>Bus Type:</strong> <span id="summaryBusType"></span></p>
+                    <p><strong>Selected Seats:</strong> <span id="summarySeats"></span></p>
+                    <p><strong>Total Cost:</strong> $<span id="summaryCost"></span></p>
+                  </div>
+                
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking Summary</title>
+  <style>
+    body{
+      background-color: #353433;
+    }
+    .booking-summary{
+      text-align: center;
+    }
+    .booking-summary h2{
+      text-align: center;
+      color: orange;
+    }
+    .booking-summary a{
+      color: red;
+    }
+    #summaryDetails{
+      color: white;
+      text-align: center;
+      align-items: center;
+      position: relative;
+      margin-left: 400px;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <section class="booking-summary">
+    <h2>Booking Summary</h2>
+    <div id="summaryDetails">
+      <!-- Booking details will be dynamically inserted here -->
+    </div>
+    <br>
+    <a href="index.html">Back to Home</a>
+  </section>
+
+  <script>
+    // Retrieve booking details from sessionStorage
+    const bookingDetails = sessionStorage.getItem('bookingDetails');
+
+    // Display booking details in summary
+    if (bookingDetails) {
+      document.getElementById('summaryDetails').innerHTML = bookingDetails;
+    } else {
+      document.getElementById('summaryDetails').innerHTML = '<p>No booking details found.</p>';
+    }
+  </script>
+
+</body>
+</html>
